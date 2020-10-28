@@ -1,4 +1,4 @@
-package general;
+package com.general;
 
 class Outer{
   String x = "variable in outerClass";

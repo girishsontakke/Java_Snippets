@@ -1,4 +1,4 @@
-package oop;
+package com.oop;
 
 interface Writer{
     void write();

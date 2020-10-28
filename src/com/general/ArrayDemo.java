@@ -1,4 +1,4 @@
-package general;
+package com.general;
 
 public class ArrayDemo {
     public static void main(String[] args){

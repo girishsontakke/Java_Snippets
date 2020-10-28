@@ -1,4 +1,4 @@
-package general;
+package com.general;
 
 // 1. Normal
 // 2. Single abstract interface - functional interface - lambda expression

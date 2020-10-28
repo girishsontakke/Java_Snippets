@@ -1,4 +1,4 @@
-package general;
+package com.general;
 
 class Calc{
     private int num1;

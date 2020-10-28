@@ -1,4 +1,4 @@
-package oop;
+package com.oop;
 abstract class Human{
     public abstract void eat();
 

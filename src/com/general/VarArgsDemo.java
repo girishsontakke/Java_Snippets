@@ -1,4 +1,4 @@
-package general;
+package com.general;
 
 class Calculator{
     public int sum(int ... a){ // variable length arguments

@@ -1,4 +1,4 @@
-package general;
+package com.general;
 
 class Casio{
     private int q = 5;
