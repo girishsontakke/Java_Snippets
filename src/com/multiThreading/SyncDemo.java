@@ -11,12 +11,9 @@ class Counter{
 public class SyncDemo {
     public static void main(String[] args) throws Exception{
         Counter counter = new Counter();
-        Thread t1 = new Thread(new Runnable(){
-            @Override
-            public void run() {
-                for(int i=0; i<1000; i++){
-                    counter.increment();
-                }
+        Thread t1 = new Thread(() -> {
+            for(int i=0; i<1000; i++) {
+                counter.increment();
             }
         });
 
